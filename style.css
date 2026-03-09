@@ -219,7 +219,7 @@
 .upThirdTop {
     background-color: white;
     display: flex;
-    padding: 0 15px;
+    margin: 0 15px;
     gap: 5rem;
     align-items: center;
     overflow: hidden;
@@ -249,7 +249,7 @@
 .downThirdTop {
     background-color: white;
     display: flex;
-    padding: 0 15px;
+    margin: 0 15px;
     gap: 5rem;
     align-items: center;
     overflow: hidden;
