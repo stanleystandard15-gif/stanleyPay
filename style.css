@@ -42,7 +42,8 @@
 
 
 .profileText {
-    font-weight: italic;
+    font-size:0.9rem;
+    
 }
 
 .topRight {
@@ -198,7 +199,7 @@
 }
 
 .middleThirdTop{
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: column;
     margin: 1rem 1.5rem;
