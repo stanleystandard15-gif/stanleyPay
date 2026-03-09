@@ -70,7 +70,7 @@
 .middle {
     background-color: whitesmoke;
     height: 80vh;
-    font-size: 0.7rem;
+    
 }
 
 .middleTop {
@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     padding: 1.5rem;
-    font-size: 0.7rem;
+    
 }
 
 .balanceBoard {
@@ -173,31 +173,36 @@
 
 
 .middleSecondTop {
-    height: 12vh;
-    width: 90%;
     background-color: white;
-    border-radius: 15px;
-    margin-left: 22px;
     display: flex;
-    padding: 0 2px;
-    gap: 9rem;
-    margin-top: 0;
-    font-size: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+padding: 1.5rem;
+margin: 0 1.5rem;
+border-radius: 0.5rem;
+    /* gap: 2rem; */
+}
+
+.user, .bank, .cash{
+height: 2rem;
+    width: 2rem;
+    background-color: rgb(225, 252, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
 }
 
 .class,
 .yam,
 .beans {
-    height: 2rem;
-    width: 2rem;
-    background-color: rgb(225, 252, 225);
+    
     color: green;
     border-radius: 30%;
     margin-top: 8px;
     margin-left: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     font-size: 1.3rem;
     cursor: pointer;
     margin-top: 15px;
@@ -219,7 +224,7 @@
 .upThirdTop {
     background-color: white;
     display: flex;
-    margin: 0 15px;
+    padding: 0 15px;
     gap: 5rem;
     align-items: center;
     overflow: hidden;
@@ -249,7 +254,7 @@
 .downThirdTop {
     background-color: white;
     display: flex;
-    margin: 0 15px;
+    padding: 0 15px;
     gap: 5rem;
     align-items: center;
     overflow: hidden;
