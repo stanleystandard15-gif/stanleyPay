@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.container {
+    background-color: rgb(137, 1, 1);
+    height: 100vh;
+    width: 100%;
+}
+
+.top {
+    background-color: blue;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topLeft {
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.profileImage{
+    background-color: blue;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+   background-image: url('./images/proimage.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.profileText{
+/* font-weight: bold; */
+}
+
+.topRight {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.helpIcon,.scanIcon,.notificationIcon{
+    /* background-color: blue ; */
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+                  
+
+.middle {
+    background-color: whitesmoke;
+    height: 80vh;
+}
+
+.middleTop{
+     /* background-color: red; */
+     height: 20vh;
+     display: flex;
+     justify-content: center;
+     padding: 1.5rem;
+}
+
+.balanceBoard{
+    background-color: green;
+    /* height: 20vh; */
+    height: fit-content;
+    width: 100%;
+    border-radius: 1rem;
+    
+    
+}
+
+
+.balanceBoard p{
+   font-size: 0.8rem;
+    
+    
+}
+
+
+.upBalSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    color: white;
+}
+
+.leftUpBal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rightUpBal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rightUpBalIcon{
+    font-size: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+
+.downBalSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.leftDownBal{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0.5rem;
+}
+
+.leftDownBalIcon{
+    font-size: 0.5rem;
+}
+
+.rightDownBal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red;
+    width: 50%; */
+}
+
+
+.rightDownBal button{
+   padding: 0.5rem;
+   border-radius: 2rem;
+   border: none;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: yellow;
+    height: 10vh;
+}
