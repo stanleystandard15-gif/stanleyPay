@@ -3,7 +3,7 @@
     padding: 0;
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 
 }
 
@@ -29,20 +29,20 @@
     padding: 0 2rem;
 }
 
-.profileImage{
+.profileImage {
     background-color: blue;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-   background-image: url('./images/proimage.jpg');
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-image: url('./images/proimage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
-.profileText{
-/* font-weight: bold; */
+.profileText {
+    /* font-weight: bold; */
 }
 
 .topRight {
@@ -53,7 +53,9 @@
     padding: 0 2rem;
 }
 
-.helpIcon,.scanIcon,.notificationIcon{
+.helpIcon,
+.scanIcon,
+.notificationIcon {
     /* background-color: blue ; */
     height: 3rem;
     width: 3rem;
@@ -63,40 +65,40 @@
     align-items: center;
     font-size: 1.4rem;
 }
-                  
+
 
 .middle {
     background-color: whitesmoke;
     height: 80vh;
 }
 
-.middleTop{
-     /* background-color: red; */
-     height: 20vh;
-     display: flex;
-     justify-content: center;
-     padding: 1.5rem;
+.middleTop {
+    /* background-color: red; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
 }
 
-.balanceBoard{
+.balanceBoard {
     background-color: green;
     /* height: 20vh; */
     height: fit-content;
     width: 100%;
     border-radius: 1rem;
-    
-    
+
+
 }
 
 
-.balanceBoard p{
-   font-size: 0.8rem;
-    
-    
+.balanceBoard p {
+    font-size: 0.8rem;
+
+
 }
 
 
-.upBalSection{
+.upBalSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,45 +106,45 @@
     color: white;
 }
 
-.leftUpBal{
+.leftUpBal {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
 
-.rightUpBal{
+.rightUpBal {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
 
-.rightUpBalIcon{
+.rightUpBalIcon {
     font-size: 0.5rem;
     margin-top: 0.8rem;
 }
 
 
-.downBalSection{
+.downBalSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
 }
 
-.leftDownBal{
+.leftDownBal {
     display: flex;
     align-items: center;
     color: white;
     gap: 0.5rem;
 }
 
-.leftDownBalIcon{
+.leftDownBalIcon {
     font-size: 0.5rem;
 }
 
-.rightDownBal{
+.rightDownBal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,20 +153,144 @@
 }
 
 
-.rightDownBal button{
-   padding: 0.5rem;
-   border-radius: 2rem;
-   border: none;
+.rightDownBal button {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: none;
 }
 
 
 
+.middleSecondTop {
+    height: 12vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 22px;
+    display: flex;
+    padding: 0 2px;
+    gap: 9rem;
+    margin-top: 0;
+}
 
+.class,
+.yam,
+.beans {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(225, 252, 225);
+    color: green;
+    border-radius: 30%;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
 
+.middleThirdTop {
+    height: 22vh;
+    width: 92%;
+    /* background-color: blue; */
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.upThirdTop {
+    background-color: white;
+    display: flex;
+    padding: 0 15px;
+    gap: 5rem;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+}
+
+.stan,
+.mum,
+.dad,
+.sis {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(225, 252, 225);
+    color: green;
+    border-radius: 30%;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.downThirdTop {
+    background-color: white;
+    display: flex;
+    padding: 0 15px;
+    gap: 5rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.boy,
+.girl,
+.man,
+.woman {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(225, 252, 225);
+    color: green;
+    border-radius: 30%;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
 
 
 
 .footer {
-    background-color: yellow;
     height: 10vh;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    justify-content: left;
+    gap: 4rem;
+}
+
+.footerTop {
+    /* background-color: blue; */
+    display: flex;
+    gap: 4.2rem;
+    height: 6vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.homeIcon,
+.rewardsIcon,
+.financeIcon,
+.cardsIcon,
+.meIcon {
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
