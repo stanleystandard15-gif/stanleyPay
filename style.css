@@ -252,7 +252,7 @@
     display: flex;
     overflow: hidden;
     justify-content: left;
-    gap: 4rem;
+    gap: 4rem; 
 }
 
 .footerTop {
@@ -276,4 +276,6 @@
     align-items: center;
     border-radius: 50%;
     padding: 0.5rem;
+    cursor: pointer;
+    /* background-color: aqua; */
 }  
