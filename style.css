@@ -274,7 +274,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     padding: 0.5rem;
     cursor: pointer;
     /* background-color: aqua; */
