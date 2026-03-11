@@ -255,18 +255,18 @@
 .footer {
     height: 10vh;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     background-color: white;
 }
 
 .homeIcon, .rewardsIcon, .financeIcon, .cardsIcon, .meIcon{
        height: 2rem;
     width: 2rem;
-    background-color: rgb(225, 252, 225);
+    /* background-color: rgb(225, 252, 225); */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     padding: 0.5rem;
-    color: green;
+    /* color: green; */
 }
