@@ -253,7 +253,6 @@
     overflow: hidden;
     justify-content: left;
     gap: 4rem;
-    font-size: 0.7rem;
 }
 
 .footerTop {
@@ -263,7 +262,6 @@
     height: 6vh;
     width: 100%;
     overflow: hidden;
-    font-size: 0.7rem;
 }
 
 .homeIcon,
@@ -273,14 +271,9 @@
 .meIcon {
     height: 2rem;
     width: 2rem;
-    background-color: white;
-    border-radius: 50%;
-    margin-top: 8px;
-    margin-left: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
-    cursor: pointer;
-    font-size: 0.7rem;
-}
+    border-radius: 50%;
+    padding: 0.5rem;
+}  
