@@ -258,11 +258,11 @@
 .footerTop {
     /* background-color: blue; */
     display: flex;
-    gap: 4.2rem;
+    /* gap: 4.2rem; */
     height: 6vh;
     width: 100%;
     overflow: hidden;
-    height: 10vh;
+    /* height: 10vh; */
 }
 
 .homeIcon,
@@ -277,5 +277,6 @@
     align-items: center;
     border-radius: 50%;
     padding: 0.5rem;
-    margin-top: auto;
+    /* margin-top: auto; */
+    gap: 1rem;
 }  
