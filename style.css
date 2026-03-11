@@ -260,8 +260,9 @@
     display: flex;
     gap: 4.2rem;
     height: 6vh;
-    /* width: 100%; */
+    width: 100%;
     overflow: hidden;
+    height: 10vh;
 }
 
 .homeIcon,
@@ -269,12 +270,12 @@
 .financeIcon,
 .cardsIcon,
 .meIcon {
-    height: 2rem;
+     height: 2rem;
     width: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     padding: 0.5rem;
-    cursor: pointer;
+    margin-top: auto;
 }  
