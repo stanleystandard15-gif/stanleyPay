@@ -249,10 +249,10 @@
 .footer {
     height: 10vh;
     background-color: white;
-    display: flex;
+    /* display: flex; */
     overflow: hidden;
     justify-content: left;
-    gap: 4rem; 
+    /* gap: 2rem;  */
 }
 
 .footerTop {
@@ -260,7 +260,7 @@
     display: flex;
     gap: 4.2rem;
     height: 6vh;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
