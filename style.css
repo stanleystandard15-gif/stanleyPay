@@ -256,6 +256,7 @@
     height: 10vh;
     display: flex;
     gap: 3.9rem;
+    background-color: white;
 }
 
 .homeIcon, .rewardsIcon, .financeIcon, .cardsIcon, .meIcon{
