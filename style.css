@@ -42,8 +42,8 @@
 
 
 .profileText {
-    font-size:0.9rem;
-    
+    font-size: 0.9rem;
+
 }
 
 .topRight {
@@ -198,7 +198,7 @@
     color: green;
 }
 
-.middleThirdTop{
+.middleThirdTop {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -206,17 +206,20 @@
     border-radius: 0.3rem;
     padding: 1rem 0;
     gap: 2rem;
-    
+
 }
 
-.upThirdTop{
+.upThirdTop {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
 
-.airtime, .data, .betting, .cableTv{
-     height: 2rem;
+.airtime,
+.data,
+.betting,
+.cableTv {
+    height: 2rem;
     width: 2rem;
     background-color: rgb(225, 252, 225);
     display: flex;
@@ -227,13 +230,16 @@
     color: green;
 }
 
-.downThirdTop{
+.downThirdTop {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
 
-.safeBox, .loan, .heart, .more{
+.safeBox,
+.loan,
+.heart,
+.more {
     height: 2rem;
     width: 2rem;
     background-color: rgb(225, 252, 225);
@@ -248,35 +254,13 @@
 
 .footer {
     height: 10vh;
-    background-color: white;
-    /* display: flex; */
-    overflow: hidden;
-    justify-content: left;
-    /* gap: 2rem;  */
-}
-
-.footerTop {
-    /* background-color: blue; */
     display: flex;
-    /* gap: 4.2rem; */
-    height: 6vh;
-    width: 100%;
-    overflow: hidden;
-    /* height: 10vh; */
+    gap: 3.9rem;
 }
 
-.homeIcon,
-.rewardsIcon,
-.financeIcon,
-.cardsIcon,
-.meIcon {
-     height: 2rem;
-    width: 2rem;
+.homeIcon, .rewardsIcon, .financeIcon, .cardsIcon, .meIcon{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     padding: 0.5rem;
-    /* margin-top: auto; */
-    gap: 1rem;
-}  
+}
